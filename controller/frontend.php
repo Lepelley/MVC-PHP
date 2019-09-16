@@ -1,6 +1,6 @@
 <?php
 
-// Manager class
+// Include Manager class
 
 function test() 
 {
