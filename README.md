@@ -1,6 +1,11 @@
 # MVC-PHP
- Mini framework MVC en PHP
+ Mini framework MVC with PHP
 
 # Configuration
-Configurer le fichier Model/Manager.php pour les adapter à votre projet.
-Modifier les namespaces si vous le voulez !
+Configure Model/Manager.php file to adapt it to your project.
+
+# Architecture explication
+Coming soon...
+
+# How to add a action (step by step progress)
+Coming soon...
