@@ -1,4 +1,4 @@
-<?php $title = 'Error 404'; ?>
+<?php $title = 'Error'; ?>
 
 <?php ob_start(); ?>
 <h1>Wrong link</h1>
