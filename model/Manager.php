@@ -1,10 +1,10 @@
 <?php
 
-namespace Leyzou\Blog\Model;
+namespace Leyzou\Mvc\Model;
 
 class Manager
 {
-
+    private $rdbms = 'mysql';
     private $host = 'localhost';
     private $db = 'test';
     private $user = 'root';
@@ -12,7 +12,7 @@ class Manager
 
     protected function dbConnect()
     {
-        $db = new \PDO('mysql:host=' . $host . ';dbname=' . $db . ';charset=utf8', $user, $password);
+        $db = new \PDO($this->rdbms . ':host=' . $this->host . ';dbname=' . $this->db . ';charset=utf8', $this->user, $this->password);
         return $db;
     }
 }
