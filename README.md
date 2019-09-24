@@ -6,20 +6,21 @@ Configure Model/Manager.php file to adapt it to your project.
 
 # Architecture explication
 - controller
-\\ - backend.php
-\\ - frontend.php
+- controller/backend.php
+- controller/frontend.php
 - model
-\\ - Manager.php : file to include in every Manager you create, contains the connection to your database with your logins
+- model/Manager.php : file to include in every Manager you create, contains the connection to your database with your logins
 - public
-\\ css
-\\ images
-\\ js
+- public/css
+- public/images
+- public/js
 - vendor : put the external libraries you use here
 - view : contains the view of your pages and the templates you use
-\\ - errorView.php : view use when a error is catch
-\\ - template.php : base template
-\\ - testView.php : can be delete, at the beginning, your main view
-index.php : router
+- view/backend
+- view/frontend/errorView.php : view use when a error is catch
+- view/frontend/template.php : base template
+- view/frontend/testView.php : can be delete, at the beginning, your main view
+- index.php : router
 
 # How to add a action/page (step by step progress)
 - code the model (in the model folder) and create table in your database if you need them
