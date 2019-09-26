@@ -1,6 +1,6 @@
 <?php
 
-namespace Leyzou\Mvc\Model;
+namespace Model;
 
 class Manager
 {

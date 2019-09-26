@@ -1,6 +1,7 @@
 <?php
-require('controller/frontend.php');
-require('controller/backend.php');
+require_once('vendor/autoload.php');
+require_once('controller/frontend.php');
+require_once('controller/backend.php');
 
 try {
     if (isset($_GET['action'])) {
