@@ -1,5 +1,5 @@
 # MVC-PHP
- Mini framework MVC with PHP
+ Mini framework MVC with PHP (example of project with : https://www.github.com/Leyzou/Portfolio).
 
 # Configuration
 Configure Model/Manager.php file to adapt it to your project.
