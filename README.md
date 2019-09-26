@@ -30,3 +30,4 @@ Configure Model/Manager.php file to adapt it to your project.
 
 # To Do
 - restricte access from folder except public
+- add a autoloader
