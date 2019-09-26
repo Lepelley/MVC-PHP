@@ -19,6 +19,9 @@ class Manager
         else if ($dns == 'pgsql') { // PostgreSQL
             $db = new \PDO($this->dns . ':host=' . $this->host . 'port=' . $port . ';dbname=' . $this->db, $this->user, $this->password);
         }
+        else { // try catch with exception ?
+            echo 'DNS not supported, add a condition';
+        }
         $db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         $db->setAttribute(\PDO::ATTR_EMULATE_PREPARES, false);
         return $db;
